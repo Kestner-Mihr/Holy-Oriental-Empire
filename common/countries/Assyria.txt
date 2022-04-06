@@ -1,0 +1,109 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 155  39  39 }
+
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	maritime_ideas
+	trade_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+	"Abroham #0" = 60
+	"Ahrun #0" = 40
+	"Eshai #0" = 40
+	"Israel #0" = 20
+	"Alqasnona #0" = 20
+	"Ammanuel #0" = 20
+	"Ashur #0" = 20
+	"Asur #0" = 0
+	"Baaz #0" = 0
+	"Bartulmen #0" = 0
+	"Daniyel #0" = 0
+	"Diyana #0" = 0
+	"Eesho #0" = 0
+	"Eliyah #0" = 0
+	"Garsa #0" = 0
+	"Goriel #0" = 0
+	"Hedo #0" = 0
+	"Hormuzd #0" = 0
+	"Iskhaq #0" = 0
+	"Issavi #0" = 0
+	"Istir #0" = 0
+	"Luqa #0" = 0
+	"Malko #0" = 0
+	"Man'nah #0" = 0
+	"Palakh #0" = 0
+	"Khusi #0" = 0
+	"Larsa #0" = 0
+	"Lawita #0" = 0
+	"Pirayou #0" = 0
+	"Nuhro #0" = 0
+	"Nukh #0" = 0
+	"Pithyou #0" = 0
+	"Qanayou #0" = 0
+	"Rabbu #0" = 0
+	"Rume #0" = 0
+	"Saliba #0" = 0
+	"Sawuah #0" = 0
+	"Seena #0" = 0
+	"Shamash #0" = 0
+	"Yusef #0" = 0
+	"Zabel #0" = 0
+	
+	"Ishtar #0" = -1
+	"Adorina #0" = -1
+	"Arram #0" = -1
+	"Euphrates #0" = -1
+	"Hanuno  #0" = -1
+	"Khannah #0" = -1
+	"Nahrin #0" = -1
+	"Shapira #0" = -1
+	"Shooshan #0" = -1
+	"Simta #0" = -1
+	"Wardiya #0" = -1
+	"Yaeeta #0" = -1
+	"Walita #0" = -1
+	"Yayota #0" = -1
+	"Yonita #0" = -1
+	"Doreena #0" = -1
+	"Ghezalle #0" = -1
+}
+
+leader_names = {
+	Nuhro
+	Zabel
+	Bartulmen
+	Ashur
+	Asur
+	Baaz
+	Khusi
+}
+
+ship_names = {
+	Ishtar
+	Euphrates
+	Babylon
+	Ashur
+}
