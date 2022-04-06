@@ -1,0 +1,125 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 82  199  247 }
+
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	economic_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+	"Kailvin #2" = 20
+	"Udaynath #2" = 20
+	"Hairan #2" = 20
+	"Maeonius #2" = 20
+	"Vaballathus #2" = 20
+	"Antiochus #2" = 20
+	"Adlai #2" = 20
+	"Faddey #1" = 20
+	"Hozai #1" = 20
+	"Talmai #1" = 15
+	"Tamas #2" = 10
+	"Tavi #1" = 10
+	"Thaddeus #1" = 10
+	"Te'oma #1" = 10
+	"Yeshua #1" = 10
+	"Bartholemew #1" = 10
+	"Caiaphas #0" = 0
+	"Cephas #0" = 0
+	"Jagur #0" = 0
+	"Lazar #0" = 0
+	"Labbaeus #0" = 0
+	"Clopas #0" = 0
+	"Achan #0" = 0
+	"Samal #0" = 0
+	"Cephus #0" = 0
+	"Shamir #0" = 0
+	"Todos #0" = 0
+	"Zerika #0" = 0
+	"Nahor #0" = 0
+	"Ilit #0" = 0
+	"Hannibal #0" = 0
+	"Avda #0" = 0
+	"Eskander #0" = 0
+	"Carthalo #0" = 0
+	"Philosir #0" = 0
+	"Saba #0" = 0
+	"Azimilik #0" = 0
+	"Tarîq #0" = 0
+	"Boulomenus #0" = 0
+	"Hiram #0" = 0
+	"Eshbaal #0" = 0
+	"Paltibaal #0" = 0
+	"Zîyad #0" = 0
+	
+	"Zenobia #0" = -1
+	"Marfa #0" = -1
+	"Maria #0" = -1
+	"Rebekkah #0" = -1
+	"Sybilla #0" = -1
+	"Samantha #0" = -1
+	"Ketina #0" = -1
+	"Shayna #0" = -1
+	"Sophonisba #0" = -1
+	"Tamar #0" = -1
+	"Anina #0" = -1
+	"Idra #0" = -1
+	"Mariam #0" = -1
+	"Nahara #0" = -1
+	"Carma #0" = -1
+	"Chasina #0" = -1
+	"Chanina #0" = -1
+}
+
+leader_names = {
+	Hannibal
+	Eskander
+	Jagur
+	Antiochus
+	Adlai
+	Tamas
+	Cephas
+	Carthalo
+	Hamilcar
+	Hiram
+	Bartholemew
+	Baldwin
+	Baal
+}
+
+ship_names = {
+	Arif
+	Azmi
+	Dervish
+	Fuad
+	Haci
+	Haydar
+	Mulish
+	Nuri
+	Salih
+	Said
+	Sefveti
+	Shukri
+}
