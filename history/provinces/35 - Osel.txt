@@ -1,0 +1,24 @@
+#Ösel and Dagö, incl. Sonnenburg and Arensburg.
+
+owner = KUR
+controller = KUR
+add_core = KUR
+add_core = EST
+culture = estonian
+religion = catholic
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = grain
+base_manpower = 1
+capital = "Arensburg"
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = KRP
+discovered_by = BUJ
+discovered_by = SUB
+discovered_by = JOC

@@ -1,0 +1,26 @@
+#42 - Warmia
+
+owner = PRS
+controller = PRS
+capital = "Allenstein"
+culture = old_prussian
+religion = baltic_pagan_reformed
+trade_goods = naval_supplies
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+add_core = PRS
+estate = estate_church
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = KRP
+discovered_by = BUJ
+discovered_by = SUB
+discovered_by = JOC
