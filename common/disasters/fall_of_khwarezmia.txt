@@ -1,0 +1,72 @@
+ fall_of_khwarezmia = {
+	potential = {
+	    tag = KHW
+		OR = {
+			has_country_modifier = oligarchs_of_khwarezm_3
+			has_country_modifier = oligarchs_of_khwarezm_2
+			has_country_modifier = oligarchs_of_khwarezm_1
+		}	
+	}
+	
+	
+	can_start = {
+	    has_any_disaster = no
+		OR = {
+			has_country_modifier = oligarchs_of_khwarezm_3
+			has_country_modifier = oligarchs_of_khwarezm_2
+			has_country_modifier = oligarchs_of_khwarezm_1
+		}	
+		is_year = 1450
+	}
+	
+	can_stop = { 
+		NOT = { has_country_modifier = oligarchs_of_khwarezm_3 }
+		NOT = { has_country_modifier = oligarchs_of_khwarezm_2 }
+		NOT = { has_country_modifier = oligarchs_of_khwarezm_1 }
+	}
+	
+	progress = {
+		modifier = {
+			factor = 2
+			is_year = 1465
+			has_country_modifier = oligarchs_of_khwarezm_3
+		}	
+		modifier = {
+			factor = 2
+			is_year = 1500
+			has_country_modifier = oligarchs_of_khwarezm_2	
+		}
+		modifier = {
+			factor = 2
+			is_year = 1550
+			has_country_modifier = oligarchs_of_khwarezm_1	
+		}
+	}
+	
+	can_end = {
+		had_country_flag = { flag = khwarezmid_empire_is_dead }
+	}
+	
+
+	modifier = {
+		global_unrest = 5
+		stability_cost_modifier = 0.1
+	}	
+	
+	
+	on_start = end_of_khwarezmid.1
+	on_end = end_of_khwarezmid.4
+	
+	on_monthly = {
+	    events = {
+			end_of_khwarezmid.4
+		}
+		random_events = { 
+			1000 = 0
+			100 = end_of_khwarezmid.2
+			100 = end_of_khwarezmid.3
+			
+		}
+	}
+}
+
