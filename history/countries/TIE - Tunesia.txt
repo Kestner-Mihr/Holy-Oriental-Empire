@@ -1,0 +1,28 @@
+government = feudal_monarchy
+government_rank = 2
+technology_group = western
+religion = catholic
+primary_culture = meridian
+capital = 341	# Tunis
+
+1442.12.13 = {
+	monarch = {
+		name = "Vlaicu"
+		birth_date = 1381.12.27
+		dynasty = "Sotan"
+		adm = 3
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = entrepreneur_personality
+	heir = {
+		name = "Seslav"
+		monarch_name = "Seslav"
+		dynasty = "Sotan"
+		birth_date = 1424.10.21
+		death_date = 1504.10.21
+		adm = 1
+		dip = 1
+		mil = 5
+	}
+}

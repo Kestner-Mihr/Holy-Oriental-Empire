@@ -1,0 +1,17 @@
+government = feudal_monarchy
+technology_group = western
+religion = catholic
+primary_culture = meridian
+add_accepted_culture = neapolitan
+capital = 121 # Napoli
+
+1444.1.1 = {
+	monarch = {
+		name = "Gaspare"
+		dynasty = "von Rügen"
+		birth_date = 1434.2.20
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

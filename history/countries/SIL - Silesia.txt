@@ -1,0 +1,21 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = western
+primary_culture = saxon
+religion = catholic
+clear_scripted_personalities = yes
+capital = 264
+
+1425.8.16 = {
+	monarch = {
+		name = "Margarete"
+		birth_date = 1400.4.27
+		dynasty = "von Brunshorn"
+		female = yes
+		adm = 4
+		dip = 1
+		mil = 1
+	}
+	add_ruler_personality = industrious_personality
+	add_ruler_personality = entrepreneur_personality
+}

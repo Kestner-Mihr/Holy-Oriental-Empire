@@ -1,0 +1,33 @@
+government = iqta
+government_rank = 2
+primary_culture = racastani
+religion = sunni
+technology_group = indian
+capital = 2054
+add_accepted_culture = panjabi
+historical_rival = KHJ
+historical_rival = GHU
+religious_school = hanafi_school
+
+1437.5.13 = {
+	monarch = {
+		name = "Ayaz"
+		dynasty = "Qabajah"
+		birth_date = 1416.3.27
+		adm = 4
+		dip = 0
+		mil = 3
+	}
+}
+
+1437.5.13 = {
+	heir = {
+		name = "Tugrul"
+		dynasty = "Qabajah"
+		birth_date = 1434.3.27
+		death_date = 1495.11.13
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}

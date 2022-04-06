@@ -1,0 +1,17 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = eastern
+religion = catholic
+primary_culture = wendish
+capital = 2994	# Warsaw
+
+1444.1.1 = {
+	monarch = {
+		name = "Christoffer"
+		dynasty = "af Frondholm"
+		birth_date = 1414.2.20
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}

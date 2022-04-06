@@ -1,0 +1,17 @@
+government = iqta
+primary_culture = bengalce
+religion = sunni
+technology_group = indian
+capital = 2092	# Mandu
+religious_school = hanafi_school
+ 
+1444.1.1 = {
+	monarch = {
+		name = "Aksonqor"
+		dynasty = "Khilji"
+		birth_date = 1401.2.20
+		adm = 1
+		dip = 1
+		mil = 4
+	}
+}

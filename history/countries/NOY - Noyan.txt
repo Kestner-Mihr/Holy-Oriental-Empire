@@ -1,0 +1,17 @@
+government = steppe_horde
+primary_culture = uzbehk
+religion = sunni
+technology_group = nomad_group
+capital = 457
+
+1443.7.20 = {
+	monarch = {
+		name = "Nayaga"
+		birth_date = 1394.1.26
+		dynasty = "Noyan"
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+	add_ruler_personality = entrepreneur_personality
+}

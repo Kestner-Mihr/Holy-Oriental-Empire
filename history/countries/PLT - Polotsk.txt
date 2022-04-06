@@ -1,0 +1,17 @@
+government = principality
+government_rank = 1
+primary_culture = byelorussian
+religion = orthodox
+technology_group = eastern
+capital = 278
+
+1444.1.1 = {
+	monarch = {
+		name = "Yaropolk"
+		dynasty = "Rurikid"
+		birth_date = 1408.2.20
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

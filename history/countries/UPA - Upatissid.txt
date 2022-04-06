@@ -1,0 +1,18 @@
+government = feudal_monarchy
+government_rank = 2
+technology_group = indian
+religion = buddhism
+primary_culture = sinhala
+capital = 2100	# Jaffna
+
+1428.8.13 = {
+	monarch = {
+		name = "Maharaka Sanghatissa"
+		dynasty = "Upatissid"
+		birth_date = 1410.12.17
+		death_date = 1495.11.13
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}

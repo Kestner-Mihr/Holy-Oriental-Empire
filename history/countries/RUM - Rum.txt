@@ -1,0 +1,30 @@
+government = iqta
+government_rank = 3
+primary_culture = turkish
+religion = sunni
+technology_group = ottoman
+historical_rival = HOE
+capital = 329	# Sivas
+
+1444.4.22 = {
+	monarch = {
+		name = "Danismend"
+		dynasty = "Seljuq"
+		birth_date = 1412.8.21
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1444.4.23 = {
+	heir = {
+		name = "Rustem"
+		dynasty = "Seljuq"
+		birth_date = 1438.3.3
+		death_date = 1495.11.13
+		adm = 4
+		dip = 3
+		mil = 6
+	}
+}

@@ -1,0 +1,16 @@
+government = merchant_republic
+mercantilism = 25
+primary_culture = venetian
+religion = catholic
+technology_group = western
+capital = 108 # Verona
+
+1444.1.1 = {
+	monarch = {
+		name = "Jacopo"
+		birth_date = 1373.1.1
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+}

@@ -1,0 +1,18 @@
+government = despotic_monarchy
+government_rank = 1
+primary_culture = nubian
+religion = catholic
+technology_group = east_african
+unit_type = sub_saharan
+capital = 1220		# nOB
+
+1444.1.1 = {
+	monarch = {
+		name = "Edouard"
+		dynasty = "de Bellegarde"
+		birth_date = 1419.2.20
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

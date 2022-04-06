@@ -1,0 +1,16 @@
+government = feudal_monarchy
+technology_group = eastern
+religion = orthodox
+primary_culture = ruthenian
+capital = 4247	#
+
+1444.1.1 = {
+	monarch = {
+		name = "Svetislav"
+		dynasty = "Ermi"
+		birth_date = 1421.2.20
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}

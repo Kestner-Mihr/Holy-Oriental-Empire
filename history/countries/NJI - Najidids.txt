@@ -1,0 +1,17 @@
+government = iqta
+primary_culture = moroccan
+religion = sunni
+technology_group = muslim
+capital = 344 # Marrakech
+add_accepted_culture = berber
+religious_school = maliki_school
+
+1420.1.1 = {
+	monarch = {
+		name = "Abdalhaqq II"
+		dynasty = "Najidid"
+		adm = 5
+		dip = 3
+		mil = 6
+	}
+}

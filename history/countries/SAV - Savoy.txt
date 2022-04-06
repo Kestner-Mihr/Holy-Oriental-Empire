@@ -1,0 +1,18 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = piedmontese
+religion = catholic
+technology_group = western
+capital = 205 # Chambéry
+add_army_professionalism = 0.05
+
+1444.1.1 = {
+	monarch = {
+		name = "Anselm"
+		dynasty = "de Savoie"
+		birth_date = 1411.2.20
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,18 @@
+government = feudal_monarchy
+primary_culture = basque
+religion = catholic
+technology_group = western
+capital = 210	# Pamplona
+
+
+1410.2.16 = {
+	monarch = {
+		name = "Felipe"
+		birth_date = 1379.5.19
+		dynasty = "Huddid"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = scholar_personality
+}

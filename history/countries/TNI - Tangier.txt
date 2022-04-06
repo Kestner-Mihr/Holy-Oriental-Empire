@@ -1,0 +1,18 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = andalucian
+add_accepted_culture = moroccan
+religion = catholic
+technology_group = western
+capital = 342
+
+1444.1.1 = {
+	monarch = {
+		name = "Gerhard"
+		dynasty = "von Altenburg"
+		birth_date = 1424.2.20
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

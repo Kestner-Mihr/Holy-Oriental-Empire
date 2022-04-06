@@ -1,0 +1,19 @@
+government = steppe_horde
+primary_culture = mongol
+religion = sunni
+technology_group = nomad_group
+capital = 290
+clear_scripted_personalities = yes
+
+1434.4.5 = {
+	monarch = {
+		name = "Targhutai"
+		birth_date = 1422.5.13
+		dynasty = "Subetei"
+		adm = 4
+		dip = 2
+		mil = 6
+	}
+	add_ruler_personality = industrious_personality
+	add_ruler_personality = entrepreneur_personality
+}

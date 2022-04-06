@@ -1,0 +1,19 @@
+government = veche_republic
+government_rank = 1
+mercantilism = 25
+primary_culture = novgorodian
+religion = orthodox
+technology_group = eastern
+historical_rival = MOS
+capital = 310	# Novgorod
+
+1440.1.2 = {
+	monarch = {
+		name = "Roman"
+		birth_date = 1379.6.10
+		dynasty = "of Novgorod"
+		adm = 3
+		dip = 1
+		mil = 6
+	}
+}

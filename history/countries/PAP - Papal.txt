@@ -1,0 +1,20 @@
+government = papal_government
+government_rank = 2
+primary_culture = umbrian
+religion = catholic
+technology_group = western
+capital = 118	# Roma
+fixed_capital = 118  # Cannot move capital away from this province & no power cost to move to it
+add_army_professionalism = 0.05
+
+1440.6.24 = {
+	monarch = {
+		name = "Clemens V"
+		birth_date = 1386.9.28
+		dynasty = "di Gattinara"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = scholar_personality
+}

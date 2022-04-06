@@ -1,0 +1,19 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = saxon
+religion = catholic
+elector = yes
+technology_group = western
+capital = 62 # Leipzig
+
+1444.1.1 = {
+	monarch = {
+		name = "Agathe"
+		dynasty = "Askanien"
+		birth_date = 1436.2.20
+		female = yes
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}

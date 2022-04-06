@@ -1,0 +1,17 @@
+government = iqta
+primary_culture = al_suryah_arabic
+religion = sunni
+technology_group = muslim
+capital = 407	# Raqqa
+religious_school = shafii_school
+
+1444.5.10 = {
+	monarch = {
+		name = "Tariq"
+		dynasty = "al-Qazdughli"
+		birth_date = 1414.1.1
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}

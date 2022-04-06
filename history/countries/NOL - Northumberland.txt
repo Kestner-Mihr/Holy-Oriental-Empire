@@ -1,0 +1,25 @@
+# Northumberland
+government = theocratic_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = english
+religion = catholic
+clear_scripted_personalities = yes
+capital = 246
+1429.5.23 = {
+	monarch = {
+		name = "Matthew"
+		birth_date = 1398.8.7
+		dynasty = "of Durham"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = scholar_personality
+}
+1444.11.11 = {
+	capital = 246
+	add_treasury = 118
+	add_prestige = 42
+}

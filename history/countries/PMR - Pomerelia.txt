@@ -1,0 +1,32 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = eastern
+religion = catholic
+primary_culture = polish
+clear_scripted_personalities = yes
+capital = 43      #Gdansk
+
+1435.5.14 = {
+	monarch = {
+		name = "Jacek"
+		birth_date = 1419.9.12
+		dynasty = "Subislawowic"
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = industrious_personality
+}
+1442.7.21 = {
+	heir = {
+		name = "Jolanta"
+		monarch_name = "Jolanta"
+		dynasty = "Subislawowic"
+		birth_date = 1442.7.21
+		death_date = 1522.7.21
+		female = yes
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

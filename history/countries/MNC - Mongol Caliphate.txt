@@ -1,0 +1,20 @@
+government = steppe_horde
+government_rank = 3
+technology_group = nomad_group
+religion = sunni
+primary_culture = mongol
+capital = 2190 #Karakorum
+
+
+1444.4.7 = {
+	monarch= {
+		name = "Kokochu"
+		dynasty = "Bujakhin"
+		birth_date = 1388.12.10
+		death_date = 1495.11.13
+		claim = 50
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

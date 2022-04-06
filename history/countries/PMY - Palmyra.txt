@@ -1,0 +1,16 @@
+government = feudal_monarchy
+government_rank = 2
+primary_culture = palmyrene
+religion = iconoclast
+technology_group = muslim
+capital = 405	# Palmyra
+
+1420.5.5 = {
+	monarch = {
+		name = "Kailvin I"
+		dynasty = "Tremere"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}

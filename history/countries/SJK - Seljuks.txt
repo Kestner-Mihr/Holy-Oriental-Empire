@@ -1,0 +1,31 @@
+government = iqta
+primary_culture = turkish
+religion = sunni
+technology_group = ottoman
+historical_rival = HOE
+capital = 4301
+add_army_professionalism = 0.1
+religious_school = hanafi_school
+
+1395.2.22 = {
+	monarch = {
+		name = "Saruca"
+		dynasty = "Seljuq"
+		birth_date = 1391.12.1
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1415.2.22 = {
+	heir = {
+		name = "Rustem"
+		dynasty = "Seljuq"
+		birth_date = 1412.1.10
+		death_date = 1495.11.13
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}

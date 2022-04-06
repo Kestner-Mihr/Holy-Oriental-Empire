@@ -1,0 +1,29 @@
+government = feudal_monarchy
+primary_culture = scottish
+add_accepted_culture = highland_scottish
+religion = catholic
+technology_group = western
+capital = 248 # Edinburgh
+clear_scripted_personalities = yes
+
+1433.2.2 = {
+	monarch = {
+		name = "Magnus"
+		birth_date = 1423.7.7
+		dynasty = "Dunkeld"
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+	heir = {
+		name = "Morgan"
+		monarch_name = "Morgan"
+		dynasty = "Dunkeld"
+		birth_date = 1370.9.27
+		death_date = 1450.9.27
+		adm = 2
+		dip = 4
+		mil = 5
+	}
+	add_heir_personality = entrepreneur_personality
+}

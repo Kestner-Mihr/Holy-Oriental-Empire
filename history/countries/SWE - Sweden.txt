@@ -1,0 +1,30 @@
+# SWEDEN
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = swedish
+religion = catholic
+capital = 1
+1414.7.8 = {
+	monarch = {
+		name = "Arnbjörn"
+		birth_date = 1384.7.9
+		dynasty = "Bååt"
+		adm = 0
+		dip = 3
+		mil = 0
+	}
+}
+1440.2.8 = {
+	heir = {
+		name = "Totil"
+		monarch_name = "Totil II"
+		dynasty = "Bååt"
+		birth_date = 1440.2.8
+		death_date = 1520.2.8
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

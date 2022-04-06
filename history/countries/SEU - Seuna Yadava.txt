@@ -1,0 +1,18 @@
+government = feudal_monarchy
+government_rank = 2
+technology_group = indian
+religion = hinduism
+primary_culture = tamil
+capital = 534	# Jaffna
+
+1431.12.10 = {
+	monarch = {
+		name = "Varakunan"
+		dynasty = "Seuna Yadava"
+		birth_date = 1430.12.25
+		death_date = 1495.11.13
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}

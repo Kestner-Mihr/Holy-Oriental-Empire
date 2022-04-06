@@ -1,0 +1,19 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = outremer
+religion = catholic
+technology_group = western
+capital = 380	# Jerusalem
+
+1444.2.2 = {
+	monarch = {
+		name = "Boutros"
+		dynasty = "de Albuequerque"
+		birth_date = 1394.1.28
+		death_date = 1495.11.13
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+

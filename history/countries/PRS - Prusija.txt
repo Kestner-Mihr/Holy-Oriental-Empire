@@ -1,0 +1,19 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = old_prussian
+religion = baltic_pagan_reformed
+technology_group = eastern
+capital = 41 # Vilnius
+
+
+1392.1.1 = {
+	monarch = {
+		name = "Vytautas"
+		dynasty = Gediminai
+		birth_date = 1350.1.1
+		adm = 2
+		dip = 3
+		mil = 0
+		leader = { name = "Vytautas"	type = general	fire = 2	shock = 4	manuever = 3	siege = 0 }
+	}
+}

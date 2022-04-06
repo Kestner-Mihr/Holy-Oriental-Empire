@@ -1,0 +1,18 @@
+government = iqta
+primary_culture =  turkmeni
+religion = sunni
+technology_group = muslim
+capital = 2349
+add_army_professionalism = 0.05
+religious_school = jafari_school
+
+1444.8.28 = {
+	monarch = {
+		name = "Mesud"
+		dynasty = "Tughral"
+		birth_date = 1409.2.28
+		adm = 1
+		dip = 3
+		mil = 4
+	}
+}

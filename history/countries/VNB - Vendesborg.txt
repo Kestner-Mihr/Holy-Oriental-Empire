@@ -1,0 +1,17 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = eastern
+religion = catholic
+primary_culture = swedish
+capital = 2995	# Stolp
+
+1444.1.1 = {
+	monarch = {
+		name = "Alf"
+		dynasty = "Shuvalov"
+		birth_date = 1414.2.20
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
