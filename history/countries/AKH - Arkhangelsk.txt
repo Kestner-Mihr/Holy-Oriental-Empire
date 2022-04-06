@@ -1,0 +1,17 @@
+government = veche_republic
+government_rank = 1
+mercantilism = 25
+primary_culture = novgorodian
+religion = orthodox
+technology_group = eastern
+historical_rival = MOS
+capital = 1955	# Arkhangelsk
+
+1429.1.1 = {
+	monarch = {
+		name = "Vasily I"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}

@@ -1,0 +1,19 @@
+government = merchant_republic
+government_rank = 1
+mercantilism = 25
+primary_culture = ligurian
+religion = catholic
+technology_group = western
+capital = 101	# Genova
+fixed_capital = 101 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Landolf"
+		dynasty = "Aleramicci"
+		birth_date = 1412.2.20
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}

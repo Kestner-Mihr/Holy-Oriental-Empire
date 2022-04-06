@@ -1,0 +1,60 @@
+government = iqta
+primary_culture =  khwarezmian
+add_accepted_culture =  persian
+religion = sunni
+technology_group = muslim
+capital = 433 # Tabriz
+add_army_professionalism = 0.05
+religious_school = jafari_school
+historical_friend = MNC
+
+1352.8.28 = {
+	monarch = {
+		name = "Ertekin"
+		monarch_name = "Ertekin I"
+		dynasty = "Khwarezmid"
+		birth_date = 1330.2.28
+		death_date = 1392.2.10
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}
+
+1392.2.28 = {
+	monarch = {
+		name = "Sökmen"
+		dynasty = "Khwarezmid"
+		birth_date = 1361.9.17
+		death_date = 1409.9.16
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1409.8.28 = {
+	monarch = {
+		name = "Ertekin"
+		monarch_name = "Ertekin II"
+		dynasty = "Khwarezmid"
+		birth_date = 1380.2.28
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+}
+
+1399.9.10 = {
+	heir = {
+		name = "Timurtas"
+		monarch_name = "Timurtas I"
+		dynasty = "Khwarezmi"
+		birth_date = 1399.9.10
+		death_date = 1495.11.13
+		claim = 100
+		adm = 1
+		dip = 5
+		mil = 0
+	}
+}

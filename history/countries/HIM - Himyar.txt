@@ -1,0 +1,18 @@
+government = despotic_monarchy
+government_rank = 2
+primary_culture = amhara
+religion = karaite_faith
+technology_group = east_african
+unit_type = sub_saharan
+capital = 387		# Axum
+
+1444.1.1 = {
+	monarch = {
+		name = "Ezana"
+		dynasty = "Baydid"
+		birth_date = 1415.2.20
+		adm = 3
+		dip = 1
+		mil = 3
+	}
+}

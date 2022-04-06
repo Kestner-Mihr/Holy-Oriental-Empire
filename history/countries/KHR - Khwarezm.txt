@@ -1,0 +1,7 @@
+government = iqta
+primary_culture =  khwarezmian
+religion = sunni
+technology_group = muslim
+capital = 454 # Samarkand
+add_army_professionalism = 0.05
+religious_school = jafari_school

@@ -1,0 +1,19 @@
+government = steppe_horde
+primary_culture = mongol
+religion = sunni
+technology_group = nomad_group
+capital = 257
+clear_scripted_personalities = yes
+
+1413.10.18 = {
+	monarch = {
+		name = "Tokhtamis"
+		birth_date = 1377.9.28
+		dynasty = "Bujegid"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = industrious_personality
+	add_ruler_personality = entrepreneur_personality
+}

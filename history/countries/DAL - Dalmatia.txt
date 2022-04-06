@@ -1,0 +1,16 @@
+government = feudal_monarchy
+primary_culture = croatian
+religion = catholic
+technology_group = eastern
+capital = 136	# Dalmatia
+
+1444.1.1 = {
+	queen = {
+		name = "Maria"
+		dynasty = "Vukasin"
+		birth_date = 1408.2.20
+		adm = 4
+		dip = 1
+		mil = 3
+	}
+}

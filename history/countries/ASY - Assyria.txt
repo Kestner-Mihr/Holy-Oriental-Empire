@@ -1,0 +1,18 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = assyrian
+religion = catholic
+technology_group = muslim
+capital = 2309	# Sinjar
+
+1439.1.27 = {
+	monarch = {
+		name = "Ashur"
+		dynasty = "Sarkes"
+		birth_date = 1431.2.26
+		claim = 80
+		adm = 2
+		dip = 5
+		mil = 4
+	}
+}

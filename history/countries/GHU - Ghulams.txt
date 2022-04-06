@@ -1,0 +1,21 @@
+government = iqta
+primary_culture = hintli
+religion = sunni
+technology_group = indian
+capital = 524
+add_accepted_culture = bengali
+historical_rival = KHJ
+historical_rival = QAB
+religious_school = hanafi_school
+
+1429.5.23 = {
+	monarch = {
+		name = "Burak"
+		dynasty = "Mamluk"
+		birth_date = 1429.5.23
+		death_date = 1495.11.13
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}

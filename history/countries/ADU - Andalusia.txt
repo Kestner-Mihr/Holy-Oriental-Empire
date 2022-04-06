@@ -1,0 +1,19 @@
+government = feudal_monarchy
+government_rank = 2
+primary_culture = andalucian
+religion = catholic
+technology_group = western
+capital = 225	# Cordoba
+historical_friend = POR
+
+1435.9.1 = {
+	monarch = {
+		name = "Ulrich"
+		dynasty = "von Hasseldorf"
+		birth_date = 1417.10.8
+		claim = 100
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

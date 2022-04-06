@@ -1,0 +1,18 @@
+government = despotic_monarchy
+government_rank = 1
+primary_culture = goths
+religion = orthodox
+technology_group = eastern
+historical_friend = TRE
+capital = 2410	# Theodoro
+
+1444.1.1 = {
+	monarch = {
+		name = "Helias"
+		dynasty = "Rurikid"
+		birth_date = 1404.2.20
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

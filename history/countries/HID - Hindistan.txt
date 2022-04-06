@@ -1,0 +1,5 @@
+government = iqta
+primary_culture = racastani
+religion = sunni
+technology_group = indian
+capital = 2054

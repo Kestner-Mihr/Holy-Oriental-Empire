@@ -1,0 +1,16 @@
+government = steppe_horde
+primary_culture = mongol
+religion = sunni
+technology_group = nomad_group
+capital = 157	# Saratov
+
+1444.1.1 = {
+	monarch = {
+		name = "Iturgen"
+		dynasty = "Narin"
+		birth_date = 1393.7.9
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

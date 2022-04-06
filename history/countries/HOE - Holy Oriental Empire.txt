@@ -1,0 +1,20 @@
+government = feudal_monarchy
+government_rank = 3
+primary_culture = oriental_latin
+religion = catholic
+technology_group = western
+historical_rival = EEG
+capital = 151 # Constantinople
+
+1444.1.11 = {
+	monarch = {
+		name = "Rorgon"
+		monarch_name = "Rorgon I"
+		dynasty = "De Lusignan"
+		birth_date = 1428.4.10
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+}

@@ -1,0 +1,33 @@
+government = feudal_monarchy
+government_rank = 2
+primary_culture = outremer
+religion = catholic
+technology_group = eastern
+capital = 410	# Baghdad
+
+1437.9.27 = {
+	monarch = {
+		name = "Leonard I"
+		dynasty = "de Saissac"
+		birth_date = 1412.10.26
+		claim = 80
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1439.11.1 = {
+	heir = {
+		name = "Leonard"
+		monarch_name = "Leonard II"
+		dynasty = "de Saissac"
+		birth_date = 1439.11.1
+		death_date = 1495.11.13
+		claim = 100
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+

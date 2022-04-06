@@ -1,0 +1,19 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = western
+primary_culture = oriental_latin
+add_accepted_culture = greek
+religion = catholic
+capital = 2300 	# Bordeaux
+
+1444.2.2 = {
+	monarch = {
+		name = "Humbert"
+		dynasty = "de Vendome"
+		birth_date = 1389.1.28
+		death_date = 1495.11.13
+		adm = 2
+		dip = 4
+		mil = 5
+	}
+}

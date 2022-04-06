@@ -1,0 +1,34 @@
+government = iqta
+primary_culture = bengalce
+religion = sunni
+technology_group = indian
+capital = 561
+add_accepted_culture = panjabi
+historical_rival = GHU
+historical_rival = QAB
+religious_school = hanafi_school
+
+1392.3.20 = {
+	monarch = {
+		name = "Ridvan III"
+		dynasty = "Khilji"
+		birth_date = 1392.3.20
+		claim = 100
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+}
+
+1416.3.20 = {
+	heir = {
+		name = "Hasan"
+		dynasty = "Khilji"
+		birth_date = 1415.11.13
+		death_date = 1495.11.13
+		claim = 100
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

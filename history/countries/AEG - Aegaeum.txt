@@ -1,0 +1,18 @@
+government = feudal_monarchy
+
+primary_culture = cosmopolitan_french
+religion = catholic
+technology_group = western
+capital = 145	# Jerusalem
+
+1444.2.2 = {
+	monarch = {
+		name = "Eudes"
+		dynasty = "de Tilly"
+		birth_date = 1403.1.28
+		death_date = 1495.11.13
+		adm = 0
+		dip = 5
+		mil = 5
+	}
+}

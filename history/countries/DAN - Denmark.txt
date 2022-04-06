@@ -1,0 +1,18 @@
+# Denmark
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = danish
+religion = catholic
+capital = 12
+1430.9.18 = {
+	monarch = {
+		name = "Christian"
+		birth_date = 1428.2.20
+		dynasty = "Estrid"
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+}

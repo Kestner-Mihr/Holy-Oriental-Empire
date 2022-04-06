@@ -1,0 +1,16 @@
+government = steppe_horde
+primary_culture = kirgiz
+religion = tengri_pagan_reformed
+technology_group = nomad_group
+capital = 710
+
+1425.12.19 = {
+	monarch = {
+		name = "Bujeg"
+		birth_date = 1408.12.13
+		dynasty = "Idiqut"
+		adm = 3
+		dip = 3
+		mil = 0
+	}
+}

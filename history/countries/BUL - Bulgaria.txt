@@ -1,0 +1,18 @@
+government = feudal_monarchy
+government_rank = 3
+technology_group = eastern
+primary_culture = bulgarian
+religion = orthodox
+capital = 150	# Sofia
+
+1444.1.1 = {
+	monarch = {
+		name = "Raya"
+		dynasty = "de Tilly"
+		birth_date = 1405.2.20
+		female = yes
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+}

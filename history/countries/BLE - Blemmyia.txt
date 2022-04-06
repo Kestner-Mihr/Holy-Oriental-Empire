@@ -1,0 +1,18 @@
+government = despotic_monarchy
+government_rank = 1
+primary_culture = nubian
+religion = catholic
+technology_group = east_african
+unit_type = sub_saharan
+capital = 1232		# Axum
+
+1444.1.1 = {
+	monarch = {
+		name = "Helias"
+		dynasty = "Callistus"
+		birth_date = 1381.2.20
+		adm = 4
+		dip = 6
+		mil = 2
+	}
+}

@@ -1,0 +1,18 @@
+government = steppe_horde
+primary_culture = mongol
+religion = sunni
+technology_group = nomad_group
+capital = 4253
+clear_scripted_personalities = yes
+
+1434.11.9 = {
+	monarch = {
+		name = "Chagatai"
+		birth_date = 1385.2.14
+		dynasty = "Jochid"
+		adm = 3
+		dip = 1
+		mil = 6
+	}
+	add_ruler_personality = tactical_genius_personality
+}

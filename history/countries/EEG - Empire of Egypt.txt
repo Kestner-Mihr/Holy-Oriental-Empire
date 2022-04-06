@@ -1,0 +1,20 @@
+government = feudal_monarchy
+government_rank = 3
+primary_culture = latin-egyptian
+religion = catholic
+technology_group = western
+historical_rival = HOE
+capital = 358	# Alexandria
+
+1444.2.13 = {
+	monarch = {
+		name = "Jaspert"
+		monarch_name = "Jaspert I"
+		dynasty = "de Laval"
+		birth_date = 1415.10.9
+		claim = 65
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+}

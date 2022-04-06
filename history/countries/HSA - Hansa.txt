@@ -1,0 +1,22 @@
+government = merchant_republic
+government_rank = 1
+mercantilism = 25
+technology_group = western
+religion = catholic
+primary_culture = hannoverian
+capital = 45	# Lübeck
+historical_friend = HAM #Hamburg
+historical_friend = BRE #Bremen
+historical_friend = RIG #Riga
+
+1440.2.12 = {
+	monarch = {
+		name = "Adolf"
+		birth_date = 1405.4.4
+		dynasty = "von Holstein"
+		adm = 2
+		dip = 5
+		mil = 4
+	}
+	add_ruler_personality = entrepreneur_personality
+}

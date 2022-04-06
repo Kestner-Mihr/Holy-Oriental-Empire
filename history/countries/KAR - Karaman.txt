@@ -1,0 +1,20 @@
+#Konya, Iconium
+government_rank = 1
+government = feudal_monarchy
+technology_group = western
+primary_culture = oriental_latin
+add_accepted_culture = greek
+religion = catholic
+capital = 4307 	# Konya
+
+1444.2.2 = {
+	monarch = {
+		name = "Bernard"
+		dynasty = "de Guincamp"
+		birth_date = 1399.1.28
+		death_date = 1495.11.13
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

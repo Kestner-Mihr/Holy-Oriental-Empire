@@ -1,0 +1,18 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = burgundian
+religion = catholic
+technology_group = western
+capital = 192	# Dijon
+add_army_professionalism = 0.1
+
+1444.1.1 = {
+	monarch = {
+		name = "Geofrroy"
+		dynasty = "de Bourgogne"
+		birth_date = 1405.2.20
+		adm = 1
+		dip = 3
+		mil = 0
+	}
+}

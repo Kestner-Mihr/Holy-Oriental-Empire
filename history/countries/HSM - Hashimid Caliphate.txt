@@ -1,0 +1,39 @@
+government = iqta
+government_rank = 3
+technology_group = muslim
+primary_culture = hejazi_culture
+religion = sunni
+capital = 385 # Mecca
+religious_school = hanbali_school
+
+1431.9.6 = {
+	monarch = {
+		name = "Ismat"
+		dynasty = "Hashimid"
+		birth_date = 1411.1.1
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conqueror_personality
+	add_piety = 1
+}
+
+1434.4.28 = {
+	heir = {
+		name = "Ali"
+		dynasty = "Hashimid"
+		birth_date = 1434.4.28
+		death_date = 1495.11.13
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conqueror_personality
+}
+
+1444.1.1 = { leader = {	name = "Suleiman Arslan"            	type = general	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1511.1.1 } }
+
+1444.1.1 = { leader = {	name = "Tariq ibn Ali"                      	type = general	fire = 4	shock = 2	manuever = 2	siege = 2	death_date = 1511.1.1 } }

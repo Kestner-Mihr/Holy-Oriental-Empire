@@ -1,0 +1,19 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = estonian
+capital = 36
+
+1427.6.6 = {
+	monarch = {
+		name = "Kalju II"
+		birth_date = 1415.9.11
+		dynasty = "Karasi"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = scholar_personality
+}

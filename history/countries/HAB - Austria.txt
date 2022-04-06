@@ -1,0 +1,18 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = austrian
+religion = catholic
+technology_group = western
+capital = 134 # Wien
+
+1436.5.3 = {
+	monarch = {
+		name = "Hartmann"
+		dynasty = "von Habsburg"
+		birth_date = 1428.9.9
+		death_date = 1495.11.13
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}

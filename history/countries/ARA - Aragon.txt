@@ -1,0 +1,30 @@
+government = feudal_monarchy
+primary_culture = aragonese
+add_accepted_culture = catalan
+add_accepted_culture = sicilian
+religion = catholic
+technology_group = western
+capital = 220 # Valencia
+add_army_professionalism = 0.05
+
+1437.11.17 = {
+	monarch = {
+		name = "Eginolf"
+		birth_date = 1416.8.17
+		dynasty = "von Babenberg"
+		adm = 3
+		dip = 6
+		mil = 5
+	}
+	add_ruler_personality = entrepreneur_personality
+	heir = {
+		name = "Gombau"
+		monarch_name = "Gombau"
+		dynasty = "von Babenberg"
+		birth_date = 1435.2.24
+		death_date = 1515.2.24
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}

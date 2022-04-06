@@ -1,0 +1,21 @@
+government = feudal_monarchy
+government_rank = 1
+elector = yes
+technology_group = western
+historical_friend = POL
+primary_culture = saxon
+religion = catholic
+capital = 50	# Berlin
+
+
+1444.1.1 = {
+	monarch = {
+		name = "Agathe"
+		dynasty = "Askanien"
+		birth_date = 1436.2.20
+		female = yes
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}

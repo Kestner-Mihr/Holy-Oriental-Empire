@@ -1,0 +1,17 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = breton
+religion = catholic
+technology_group = western
+capital = 172	# Nantes
+
+1397.5.13 = {
+	monarch = {
+		name = "Oliuer II"
+		birth_date = 1391.1.13
+		dynasty = "de las Asturias"
+		adm = 2
+		dip = 1
+		mil = 6
+	}
+}

@@ -1,0 +1,29 @@
+government = feudal_monarchy
+government_rank = 2
+technology_group = western
+primary_culture = occitain
+religion = catholic
+capital = 174 	# Bordeaux
+
+1424.7.31 = {
+	monarch = {
+		name = "Baudoin"
+		birth_date = 1403.11.18
+		dynasty = "d'Auvergne"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = industrious_personality
+	add_ruler_personality = entrepreneur_personality
+	heir = {
+		name = "Emmanuel"
+		monarch_name = "Emmanuel"
+		dynasty = "d'Auvergne"
+		birth_date = 1405.5.18
+		death_date = 1485.5.18
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}

@@ -1,0 +1,17 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = outremer
+religion = catholic
+technology_group = western
+capital = 2313	# Antioch
+
+1438.1.1 = {
+	monarch = {
+		name = "Hugues"
+		dynasty = "de Poitou"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+

@@ -1,0 +1,18 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = rajput
+religion = buddhism
+technology_group = indian
+capital = 2028	# Mandu
+ 
+1433.9.14 = {
+	monarch = {
+		name = "Maharaja Allat"
+		dynasty = "Jagatpalid"
+		birth_date = 1412.10.13
+		death_date = 1495.11.13
+		adm = 1
+		dip = 2
+		mil = 5
+	}
+}

@@ -1,0 +1,18 @@
+government = feudal_monarchy
+primary_culture = serbian
+add_accepted_culture = croatian
+religion = catholic
+technology_group = eastern
+capital = 3002	# Sarajevo
+historical_friend = SER
+
+1444.1.1 = {
+	monarch = {
+		name = "Mislav"
+		dynasty = "Sotan"
+		birth_date = 1417.2.20
+		adm = 1
+		dip = 1
+		mil = 5
+	}
+}

@@ -1,0 +1,16 @@
+government = feudal_monarchy
+primary_culture = austrian
+religion = catholic
+technology_group = western
+capital = 129	# Zagreb
+
+1444.1.1 = {
+	monarch = {
+		name = "Markward"
+		dynasty = "von Andechs"
+		birth_date = 1404.7.9
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}

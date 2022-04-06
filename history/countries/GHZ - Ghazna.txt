@@ -1,0 +1,32 @@
+government = iqta
+technology_group = muslim
+religion = sunni
+primary_culture = afghani
+capital = 2226	# Jalalabad
+clear_scripted_personalities = yes
+religious_school = hanafi_school
+
+1421.9.20 = {
+	monarch = {
+		name = "Aurang"
+		birth_date = 1401.4.26
+		dynasty = "Sarbadar"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = scholar_personality
+}
+1430.6.19 = {
+	heir = {
+		name = "Efrasiyab"
+		monarch_name = "Efrasiyab"
+		dynasty = "Sarbadar"
+		birth_date = 1430.6.19
+		death_date = 1510.6.19
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
