@@ -1,0 +1,47 @@
+# AXUM
+vassal =  {
+	first = BTA
+	second = AXM
+	start_date = 1444.1.1
+	end_date = 1820.1.1
+}
+
+# Berbera
+vassal =  {
+	first = BTA
+	second = BEB
+	start_date = 1444.1.1
+	end_date = 1820.1.1
+}
+
+# Himyar
+vassal =  {
+	first = BTA
+	second = HIM
+	start_date = 1444.1.1
+	end_date = 1820.1.1
+}
+
+# Kaffa
+vassal =  {
+	first = BTA
+	second = KAF
+	start_date = 1444.1.1
+	end_date = 1820.1.1
+}
+
+# tripoli
+vassal =  {
+	first = TIE
+	second = TRP
+	start_date = 1444.1.1
+	end_date = 1820.1.1
+}
+
+# Makuria
+vassal =  {
+	first = EEG
+	second = MAK
+	start_date = 1444.1.1
+	end_date = 1820.1.1
+}
