@@ -1,0 +1,277 @@
+namespace = end_of_khwarezmid
+
+#Beginning of the End
+country_event = {
+    id = end_of_khwarezmid.1
+    title = title_end_of_khwarezmid.1
+	desc = desc_end_of_khwarezmid.1
+	picture = KHWCIVILWAR_eventPicture
+		
+	major = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_stability = -3
+	}
+	
+	option = {
+		name = "NOBLE_REBELLION_BEGUN"			# Dire times are ahead of us
+		every_province = {
+		    limit = {
+			    OR = {
+				    region = persia_region
+                    region = caucasia_region
+			        region = arabia_region
+				    region = mashriq_region
+                }
+                owned_by = KHW
+            }				
+			add_core = PER
+			}
+        add_prestige = -10 			
+	}
+}
+
+#Noble Rebels Rising Up
+country_event = {
+    id = end_of_khwarezmid.2
+    title = title_end_of_khwarezmid.2
+	desc = desc_end_of_khwarezmid.2
+	picture = KHWCIVILWAR_eventPicture
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "NOBLE_REBELS_RISING"			# Dire times are ahead of us
+		random_owned_province = {
+			khwarazmian_rebels = 3
+			khwarazmian_rebels = 3
+		}
+	}
+}
+
+#Noble Rebels Rising Up Once More
+country_event = {
+    id = end_of_khwarezmid.3
+    title = title_end_of_khwarezmid.3
+	desc = desc_end_of_khwarezmid.3
+	picture = KHWCIVILWAR_eventPicture
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		random_owned_province = {
+			khwarazmian_rebels = 2
+			khwarazmian_rebels = 2
+		}	
+	}
+	
+	option = {
+		name = "NOBLE_REBELS_RISING_2"			# Dire times are ahead of us
+	}
+}
+
+#Capital has Fallen
+country_event = {
+    id = end_of_khwarezmid.4
+    title = title_end_of_khwarezmid.4
+	desc = desc_end_of_khwarezmid.4
+	picture = KHWCIVILWAR_eventPicture
+	
+	major = yes
+	
+	trigger = {
+	    tag = KHW
+		0R = {
+		if = {
+		limit = {
+			calc_true_if = {
+	            all_country = {
+		            is_core = KHW
+	            }
+	            amount = 80
+            }
+		}
+		num_of_rebel_controlled_provinces = 12
+        }
+		if = {
+	    limit = {
+			calc_true_if = {
+	            all_country = {
+		            is_core = KHW
+	            }
+	            amount = 100
+            }
+		}
+	    num_of_rebel_controlled_provinces = 15
+		}
+		if = {
+	    limit = {
+			calc_true_if = {
+	            all_country = {
+		            is_core = KHW
+	            }
+	            amount = 50
+            }
+		}
+		num_of_rebel_controlled_provinces = 7
+		}
+		if = {
+	    limit = {
+			calc_true_if = {
+	            all_country = {
+		            is_core = KHW
+	            }
+	            amount = 30
+            }
+		}
+		num_of_rebel_controlled_provinces = 5
+		}
+		if = {
+	    limit = {
+			calc_true_if = {
+	            all_country = {
+		            is_core = KHW
+	            }
+	            amount = 15
+            }
+		}
+		num_of_rebel_controlled_provinces = 3
+		}
+		if = {
+	    limit = {
+			calc_true_if = {
+	            all_country = {
+		            is_core = KHW
+	            }
+	            amount = 5
+            }
+		}
+		num_of_rebel_controlled_provinces = 2
+		}
+		if = {
+	    limit = {
+			calc_true_if = {
+	            all_country = {
+		            is_core = KHW
+	            }
+	            amount = 1
+            }
+		}
+		num_of_rebel_controlled_provinces = 1
+		}
+	}	
+}
+	
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = "RIP_KHWAREZMIA"
+		disband_rebels = khwarazmian_rebels
+		set_country_flag = khwarezmid_empire_is_dead
+		add_stability_or_adm_power = yes
+		change_government = iqta
+		release_all_subjects = yes
+		every_province = {
+		    limit = {
+			    OR = {
+				    region = persia_region
+                    region = caucasia_region
+			        region = arabia_region
+				    region = mashriq_region
+					region = anatolia_region
+					region = egypt_region
+                }
+                owned_by = KHW
+            }				
+			cede_province = PER
+			add_core = PER
+			remove_core = KHW
+		}
+        every_province = {
+		    limit = {
+			    OR = {
+				    area = sistan_area
+                    area = herat_area
+					area = birjand_area
+				    area = mashhad_area
+                }
+                owned_by = KHW
+            }				
+			cede_province = KHO
+			add_core = KHO
+			remove_core = KHW
+		}
+		every_province = {
+		    limit = {
+			    OR = {
+				    area = ghor_area
+                    area = kabulistan_area
+					area = balkh_area
+                }
+                owned_by = KHW
+            }				
+			cede_province = AFG
+			add_core = AFG
+			remove_core = KHW
+		}
+		every_province = {
+		    limit = {
+			    OR = {
+				    area = makran_area
+                    area = kalat_area
+					region = west_india_region
+				    region = hindusthan_region
+					region = deccan_region
+					region = bengal_region
+					region = coromandel_region
+                }
+                owned_by = KHW
+            }				
+			cede_province = BAL
+			add_core = BAL
+			remove_core = KHW
+		}
+		change_tag = KHR
+		kill_heir = yes
+        kill_ruler = yes
+		remove_country_modifier = oligarchs_of_khwarezm_3
+		remove_country_modifier = oligarchs_of_khwarezm_2
+		remove_country_modifier = oligarchs_of_khwarezm_1
+	}
+}
+
+
+country_event = {
+    id = end_of_khwarezmid.5
+    title = title_end_of_khwarezmid.5
+	desc = desc_end_of_khwarezmid.5
+	picture = KHWCIVILWAR_eventPicture
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "NOBLE_REBELS_RISING"			# Dire times are ahead of us
+		add_prestige = 10
+		add_stability = 1
+	}
+}
