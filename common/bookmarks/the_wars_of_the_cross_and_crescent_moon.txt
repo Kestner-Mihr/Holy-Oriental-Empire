@@ -1,0 +1,20 @@
+bookmark =
+{
+	name = "GC_CROSS_AND_CRESCENT_TITLE"
+	desc = "GC_CROSS_AND_CRESCENT_DESC"
+	date = 1444.11.11
+
+	center = 379
+	
+	country = BYZ
+	country = EEG
+	country = HSM
+	country = MES
+	country = KHW
+	country = RUM
+	country = SJK
+	country = PMY
+	country = OUT
+	country = HSN
+	
+}
