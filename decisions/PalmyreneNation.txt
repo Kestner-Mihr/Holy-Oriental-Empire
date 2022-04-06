@@ -1,0 +1,56 @@
+country_decisions = {
+
+	palmyrene_nation = {
+		major = yes
+		potential = {
+			tag = PMY
+		}
+		allow = {
+			NOT = { exists = PME }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 405	# Palmyra
+			owns_core_province = 2313	# Antioch
+			owns_core_province = 379	# Jerusalem
+			owns_core_province = 358	# Alexandria
+			owns_core_province = 380	# Kerak
+			owns_core_province = 4307	# Iconium
+		}
+		effect = {
+			change_tag = PME
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}	
+		    every_province = {
+		        limit = {
+			        OR = {
+                        region = egypt_region
+                        area = palestine_area
+					    area = trans_jordan_area
+				        area = syrian_desert_area
+					    area = syria_area
+				        area = aleppo_area
+						area = al_jazira_area
+						area = dulkadir_area
+						area = cukurova_area
+						area = ankara_area
+						area = rum_area
+						area = karaman_area
+                }
+            }				
+			add_permanent_claim = PME
+		    }
+		    country_event = { 
+                id = palmyra_events.2
+                days = 0
+                random = 0
+			}	
+        }
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
+	
+}

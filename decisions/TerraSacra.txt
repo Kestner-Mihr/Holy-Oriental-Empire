@@ -1,0 +1,36 @@
+country_decisions = {
+
+	terra_sacra = {
+		major = yes
+		potential = {
+			culture_group = eastern_latin
+			religion = catholic
+			NOT = { tag = EEG }
+			NOT = { tag = HOE }
+		}
+		allow = {
+			NOT = { exists = TSA }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 379	# Jerusalem
+			owns_core_province = 2313 	# Antioch
+			owns_core_province = 405	# Palmyra
+			owns_core_province = 362 	# Alexandria
+			owns_core_province = 410 	# Baghdad
+		}
+		effect = {
+			change_tag = TSA
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 2
+			}	
+		    every_province = {
+		        limit = {
+                    region = mashriq_region
+                }				
+			add_permanent_claim = TSA
+            }
+		}
+	}	
+}
+

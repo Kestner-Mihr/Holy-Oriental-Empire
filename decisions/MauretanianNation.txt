@@ -1,0 +1,41 @@
+country_decisions = {
+
+	mauretania_nation = {
+		major = yes
+		potential = {
+		    NOT = { tag = TSA }
+			OR = {
+			    tag = BRY
+				tag = ORN
+				tag = TIE
+				tag = RIF
+				tag = TNI
+				tag = TRP
+			}	
+		}
+		allow = {
+			NOT = { exists = MAU }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 341
+			owns_core_province = 335
+			owns_core_province = 1882
+			owns_core_province = 2465
+			owns_core_province = 337
+		}
+		effect = {
+			change_tag = MAU
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 2
+			}	
+		    every_province = {
+		        limit = {
+                    region = maghreb_region
+                }				
+			add_permanent_claim = MAU
+            }
+		}
+	}	
+}
+

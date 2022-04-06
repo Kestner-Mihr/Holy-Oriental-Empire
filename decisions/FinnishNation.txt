@@ -1,0 +1,44 @@
+country_decisions = {
+
+	finnish_nation = {
+		major = yes
+		potential = {
+			culture_group = finnic
+		}
+		allow = {
+			NOT = { exists = FIN }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 4123	# Tavastia
+			owns_core_province = 19 	# Österbotten/Pohjanmaa
+			owns_core_province = 4124	# Savonien
+			owns_core_province = 30 	# Vyborg
+			owns_core_province = 27 	# Egentliga Finland
+			owns_core_province = 28 	# Helsingfors/Helsinki
+		}
+		effect = {
+			change_tag = FIN
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 2
+			}	
+		    every_province = {
+		        limit = {
+			        OR = {
+                        area = finland_area
+					    area = bothnia_area
+					    province_id = 4151
+					    province_id = 32
+					    province_id = 30
+                }
+            }				
+			add_permanent_claim = FIN
+		    }
+		    country_event = { 
+            id = finland_events.1
+            days = 0
+            random = 0
+            }
+		}
+	}	
+}

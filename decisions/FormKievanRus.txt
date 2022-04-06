@@ -1,0 +1,45 @@
+country_decisions = {
+
+	kievanrus_nation = {
+		major = yes
+		potential = {
+		    OR = {
+			    primary_culture = ruthenian
+				primary_culture = byelorussian
+			}	
+		}
+		allow = {
+			NOT = { exists = KVR }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 280	# Kiev
+			owns_core_province = 278 	# Pinsk
+			owns_core_province = 276	# Minsk
+			owns_core_province = 290 	# Poltava
+			owns_core_province = 310 	# Novgorod
+			owns_core_province = 295 	# Moskva
+			owns_core_province = 301 	# Ryazan
+		}
+		effect = {
+			change_tag = KVR
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 2
+			}	
+		    every_province = {
+		        limit = {
+			        OR = {
+                        region = russia_region
+					    region = ruthenia_region
+                }
+            }				
+			add_permanent_claim = KVR
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
+	
+}
