@@ -1,0 +1,35 @@
+namespace = khwarezmid_events
+
+#Khwarezmid Empire
+country_event = {
+    id = khwarezmid_events.1
+	title = title_khwarezmid_events.1
+	desc = desc_khwarezmid_events.1
+    picture = KHWAR_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+	        tag = KHW
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	
+	option = {        #That's How It Is
+	    name = "STATE_OF_PERSIA"
+	    ai_chance = { factor = 100 }	
+		add_country_modifier = {
+            name = oligarchs_of_khwarezm_3
+				duration = -1
+		}
+	}	
+}
+
+#CorruptBureacrucy
+
+#CanBeFixedByDecisionsWhoGraduallySolveTheIssue
+
+#CivilWarOutbreak

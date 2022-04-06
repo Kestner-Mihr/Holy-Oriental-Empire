@@ -1,0 +1,30 @@
+namespace = mongol_caliphate
+
+#Hashimid Caliphate
+country_event = {
+    id = mongol_caliphate.1
+	title = title_mongol_caliphate.1
+	desc = desc_mongol_caliphate.1
+    picture = CALIP_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+	        tag = MNC
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	
+	option = {        # RIP MONGOLIA
+	    name = "FALLING_CALIPATE"
+	    ai_chance = { factor = 100 }	
+		add_stability = -3
+		add_country_modifier = {
+            name = falling_caliphate
+				duration = 20455
+		}
+	}
+}

@@ -1,0 +1,190 @@
+namespace = oriental_civil_war
+
+#Oriental Empire
+country_event = {
+    id = oriental_civil_war.1
+	title = title_oriental_civil_war.1
+	desc = desc_oriental_civil_war.1
+    picture = EORIVALRY_eventpicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+	        tag = HOE
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	
+	option = {        # Crush the Pretender
+	    name = "ORIENTAL_WAR"
+	    ai_chance = { factor = 100 }	
+		add_casus_belli = {
+            target = EEG
+            type = cb_civil_war
+            months = 672
+	    }
+		every_province = {
+			limit = {
+				OR = {
+					owned_by = EEG
+					owned_by = ATC
+				}	
+			}	
+			add_permanent_claim = HOE
+		}
+	}
+}
+
+#EmpireOfEgypt
+country_event = {
+    id = oriental_civil_war.2
+	title = title_oriental_civil_war.2
+	desc = desc_oriental_civil_war.2
+    picture = EORIVALRY_eventpicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    tag = EEG
+		NOT = { has_global_flag = border_issue_has_happened }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	
+	option = {        # Crush the Emperor
+	    name = "RISE_EGYPT"
+	    ai_chance = { factor = 100 }	
+		add_country_modifier = {
+            name = egyptian_empire
+				duration = 3652
+		}
+		add_casus_belli = {
+            target = HOE
+            type = cb_civil_war
+            months = 672
+	    }
+		every_province = {
+			limit = {
+				OR = {
+					owned_by = HOE
+					owned_by = CHN
+					owned_by = AEG
+					owned_by = KAR
+				}	
+			}	
+			add_permanent_claim = EEG
+		}
+	}
+}
+
+#BorderConflict
+country_event = {
+    id = oriental_civil_war.3
+	title = title_oriental_civil_war.3
+	desc = desc_oriental_civil_war.3
+    picture = EORIVALRY_eventpicture
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    tag = EEG
+		NOT = { has_global_flag = border_issue_has_happened }
+		NOT = { war_with = HOE }
+		NOT = { truce_with = HOE }
+		NOT = { is_year = 1460 }
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	immediate = {
+		set_global_flag = border_issue_has_happened
+	}
+	
+	option = {        # This Can't Be Allowed!
+	    name = "ATTACK_EEG"
+	    ai_chance = { factor = 90 }	
+		declare_war_with_cb = {
+            who = EEG
+            casus_belli = cb_civil_war
+	    }
+	}	
+	option = {        # We Can't Risk War At This Moment
+	    name = "LET_NOBLE_INVADE"
+	    ai_chance = { factor = 10 }
+		every_province = {
+		    limit = {
+			    OR = {
+                    province_id = 2313
+					province_id = 378
+				    province_id = 1855
+                }
+            }				
+			add_core = HOE
+			cede_province = HOE
+		}
+		add_prestige = -20
+	}
+}
+
+#BorderConflict
+country_event = {
+    id = oriental_civil_war.4
+	title = title_oriental_civil_war.4
+	desc = desc_oriental_civil_war.4
+    picture = EORIVALRY_eventpicture
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    tag = HOE
+		NOT = { has_global_flag = border_issue_has_happened }
+		NOT = { war_with = EEG }
+		NOT = { truce_with = EEG }
+		NOT = { is_year = 1460 }
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	immediate = {
+		set_global_flag = border_issue_has_happened
+	}
+	
+	option = {        # This Can't Be Allowed!
+	    name = "ATTACK_HOE"
+	    ai_chance = { factor = 90 }	
+		declare_war_with_cb = {
+            who = EEG
+            casus_belli = cb_civil_war
+	    }
+	}	
+	option = {        # We Can't Risk War At This Moment
+	    name = "LET_NOBLE_INVADE_2"
+	    ai_chance = { factor = 10 }
+		every_province = {
+		    limit = {
+			    OR = {
+                    province_id = 327
+					province_id = 2302
+				    province_id = 321
+                }
+            }				
+			add_core = EEG
+			cede_province = EEG 
+		}
+		add_prestige = -20
+	}
+}
