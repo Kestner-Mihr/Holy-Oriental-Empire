@@ -1,0 +1,476 @@
+# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+
+
+### Nation specific idea groups
+
+AFG_ideas = {
+	start = {
+		army_tradition = 0.5
+		global_own_trade_power = 0.1
+	}
+	
+	bonus = {
+		enemy_core_creation = 0.5
+	}
+	
+	trigger = {
+	    OR = {
+		    tag = AFG
+		    tag = GHZ
+		}	
+	}
+	free = yes
+	
+	pashtunwali = {
+		war_exhaustion_cost = -0.10
+	}
+	shadows_of_the_hindu_kush = {
+		defensiveness = 0.25
+	}
+	tureh = {
+		global_manpower_modifier = 0.2
+	}
+	afghan_diaspora = {
+		diplomatic_reputation = 1
+	}
+	durrani_imperialism = {
+		cavalry_power = 0.15
+	}
+	institutionalized_loya_jirga = {
+		legitimacy = 1
+	}
+	graveyard_of_empires = {
+		hostile_attrition = 1
+	}
+}
+
+FIN_ideas = {
+	start = {
+		discipline = 0.05
+		global_tax_modifier = 0.10
+	}
+	
+	bonus = {
+		global_heretic_missionary_strength = 0.02
+	}
+	
+	trigger = {
+	    OR = {
+		    tag = FIN
+			tag = SVO
+			tag = HME
+			tag = KLA
+			tag = POH
+			tag = ING
+			tag = KRL
+		}	
+	}
+	free = yes
+	
+	expand_viborg = {
+		defensiveness = 0.15
+	}
+	hakkapelitta_fin = {
+ 		cavalry_power = 0.15
+	}	
+	the_fourth_estate = {
+		production_efficiency = 0.1
+	}
+	settle_middle_finland = {
+		build_cost = -0.1
+		development_cost = -0.1
+	}
+	found_turun_akatemia = {
+		technology_cost = -0.05
+	}
+	the_white_death = {
+		hostile_attrition = 1
+	}
+	anjala_conspiracy = {
+		land_morale = 0.1
+	}
+}
+
+HOE_ideas = {
+	start = {
+		papal_influence = 2
+		discipline = 0.05
+	}
+	
+	bonus = {
+		infantry_power = 0.1
+	}
+	
+	trigger = {
+		tag = HOE
+	}
+	free = yes
+	
+	reassert_authority_over_the_empire = {
+		core_creation = -0.1
+		stability_cost_modifier = -0.1
+	}
+	united_by_faith = {
+		tolerance_own = 3
+	}
+	the_heirs_of_rome = {
+		diplomatic_reputation = 1
+		legitimacy = 1
+	}
+	resettling_our_lands = {
+		global_manpower_modifier = 0.1
+		development_cost = -0.05
+	}
+	experienced_missionaries = {
+		global_missionary_strength = 0.02
+	}
+	access_to_the_eastern_markets = {
+		trade_efficiency = 0.15
+	}
+	anatolian_cotton = {
+		production_efficiency = 0.10
+	}
+}
+
+hashshashin_ideas = {
+	start = {
+		global_spy_defence = 0.25
+		hostile_attrition = 1
+	}
+	bonus = {
+		global_garrison_growth = 0.1
+	}
+	trigger = {
+		tag = HAH
+	}
+	free = yes
+	
+	hashshashins_creed = {
+		spy_offence = 0.2
+	}
+	avoid_bloodshed = {
+		diplomats = 1
+	}
+	ismailis_dar_al_hijra = {
+		defensiveness = 0.30
+	}
+	mountain_fortresses = {
+		enemy_core_creation = 1.0
+	}
+	dagger_and_a_note = {
+		diplomatic_reputation = 2
+	}
+	murder_in_the_open = {
+		rebel_support_efficiency = 0.50
+	}
+	revive_jihad_hassan = {
+		manpower_recovery_speed = 0.1
+	}
+}
+
+EEG_ideas = {
+	start = {
+		papal_influence = 2
+		discipline = 0.05
+	}
+
+	bonus = {
+		cavalry_power = 0.1
+	}
+	
+	trigger = {
+		tag = EEG
+	}
+	free = yes		#will be added at load.
+
+	securing_the_survival = {
+		land_morale = 0.1
+	}
+	new_masters_of_the_orient = {
+		core_creation = -0.25
+	}
+	crusader_legacy = {
+		missionaries = 1
+		global_missionary_strength = 0.02
+	}
+	land_of_the_pharaos = {
+		prestige = 1
+	}
+	the_flourishing_nile = {
+		development_cost = -0.1
+	}
+	access_to_the_seas_of_asia = {
+		trade_efficiency = 0.15
+	}
+	restoring_the_library_of_alexandria = {
+		technology_cost = -0.05
+		idea_cost = -0.1
+	}
+}
+
+
+crusader_ideas = {
+	start = {
+		diplomatic_reputation = 1
+		religious_unity = 0.25
+	}
+
+	bonus = {
+		production_efficiency = 0.10
+	}
+	
+	trigger = {
+	    OR = {
+		    culture_group = eastern_latin
+			tag = ADU
+			tag = TIE
+			tag = ORN
+			tag = BRY
+			tag = TNI
+			tag = RIF
+			tag = TRP
+		}	
+	}
+	free = yes		#will be added at load.
+
+	legacy_of_the_crusades = {
+		land_morale = 0.1
+		discipline = 0.05
+	}
+	non_christian_subjects = {
+		global_missionary_strength = 0.02
+	}
+	crusader_forts = {
+		local_defensiveness = 0.25
+	}
+	recruiting_non_believers_into_our_ranks = {
+		global_manpower_modifier = 0.15
+		land_forcelimit_modifier = 0.1
+	}
+	crusader_nobility = {
+		army_tradition = 1
+	}
+	diplomatic_needs = {
+		improve_relation_modifier = 0.25
+	}
+	capitalising_on_the_flow_of_trade_goods = {
+		global_trade_power = 0.10
+	}
+}
+
+palmyrene_ideas = {
+	start = {
+		global_missionary_strength = 0.03
+		land_forcelimit_modifier = 0.2
+	}
+
+	bonus = {
+		production_efficiency = 0.10
+	}
+	
+	trigger = {
+		tag = PMY
+	}
+	free = yes		#will be added at load.
+
+	second_palmyrene_empire = {
+		core_creation = -0.25
+	}
+	those_who_came_before_us = {
+		prestige = 1
+	}
+	cleansing_the_lands_of_false_icons = {
+		missionaries = 1
+	}
+	between_two_worlds = {
+		global_institution_spread = 0.1
+		idea_cost = -0.1
+	}
+	levantine_cavalry = {
+		cavalry_power = 0.15
+	}
+	palmyrene_culture = {
+		culture_conversion_cost = -0.25
+	}
+	a_provincial_system = {
+	    max_states = 5
+		state_maintenance_modifier = -0.15
+	}
+}
+
+beta_israeli_ideas = {
+	start = {
+		global_missionary_strength = 0.02
+		land_attrition = -0.1
+	}
+
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		OR = {
+		    tag = BTA
+		    tag = AXM
+		    tag = HIM
+		    tag = BLE
+		}
+	}
+	free = yes		#will be added at load.
+	
+	a_new_land_for_the_people_of_judah = {
+		prestige = 1
+		global_unrest = -1
+	}
+	developing_lands_for_the_exiled = {
+		development_cost = -0.1
+	}
+	hostile_border = {
+		local_defensiveness = 0.2
+	}
+	claim_the_title_of_king_of_the_judeaens = {
+		legitimacy = 1
+	}
+	inviting_jewish_advisors = {
+		advisor_pool = 1
+		global_institution_spread = 0.1
+	}
+	modernizing_our_economy = {
+		global_tax_modifier = 0.1
+	}
+	expanding_the_kingdom = {
+		core_creation = -0.1
+		diplomatic_annexation_cost = -0.15
+	}
+}
+
+three_lions_ideas = {
+	start = {
+		tolerance_heathen = 3
+		religious_unity = 0.35
+	}
+
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		OR = {
+			tag = QAB
+		    tag = KHJ
+		    tag = GHU
+		}
+	}
+	free = yes		#will be added at load.
+	
+	the_three_lions_of_india = {
+		core_creation = -0.15
+		ae_impact = -0.1
+	}
+	turkic_cavalry = {
+		cavalry_power = 0.15
+	}
+	improved_tax_system = {
+		global_tax_modifier = 0.1
+	}
+	integrating_the_locales_into_our_administration = {
+		global_unrest = -1
+		stability_cost_modifier = -0.1
+	}
+	founding_a_centre_education = {
+	    idea_cost = -0.10
+		advisor_cost = -0.10
+	}
+	increasing_production_of_indian_goods = {
+		production_efficiency = 0.05
+	}
+	padishah_of_india = {
+		legitimacy = 1
+	}
+}
+
+HSM_ideas = {
+	start = {
+	    core_creation = -0.20
+		cavalry_power = 0.15
+	}
+
+	bonus = {
+		years_of_nationalism = -5
+	}
+	
+	trigger = {
+		tag = HSM
+	}
+	free = yes		#will be added at load.
+
+	the_hashimid_khilafah = {
+		tolerance_own = 3
+		global_unrest = -2
+	}
+	military_veterans_flocking = {
+		leader_land_shock = 1
+		army_tradition = 0.5
+	}
+	hsm_holy_war = {
+		land_morale = 0.1
+		ae_impact = -0.2
+	}
+	renewed_dawah = {
+		global_missionary_strength = 0.03
+	}
+	new_islamic_golden_age = {
+		technology_cost = -0.1
+		idea_cost = -0.05
+	}
+	re_arabization = {
+		culture_conversion_cost = -0.2
+	}
+	restore_the_bayt_al_mal = {
+	    global_tax_modifier = 0.1
+	}
+}
+
+KHW_ideas = {
+	start = {
+		cavalry_power = 0.20
+		diplomatic_upkeep = 2
+	}
+
+	bonus = {
+		stability_cost_modifier = -0.1
+	}
+	
+	trigger = {
+		tag = KHW
+	}
+	free = yes		#will be added at load.
+
+	the_khwarezmiyya = {
+		mercenary_discipline = 0.05
+		mercenary_cost = -0.1
+	}
+	advanced_diplomatic_maneuvering = {
+		diplomatic_reputation = 1
+		improve_relation_modifier = 0.15
+	}
+	assume_control_over_the_silk_road = {
+		caravan_power = 0.25
+	}
+	shahs_of_persia = {
+		prestige = 1
+	}
+	traders_of_khwarezm = {
+		merchants = 1
+	}
+	persian_renaissance = {
+		technology_cost = -0.05
+	}
+	a_diverse_land = {
+	    num_accepted_cultures = 1
+		promote_culture_cost = -0.25
+	}
+}
