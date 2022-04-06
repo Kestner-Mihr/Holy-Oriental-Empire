@@ -1,0 +1,10 @@
+﻿l_english:
+ CIVIL_WAR_NAME: "$ORDER$$FIRST$-$SECOND$ War of the Orient"
+ cb_civil_war: "Crush the Pretender!"
+ cb_civil_war_desc: "This breakaway state is run by a false pretender, they must be crushed!"
+ war_goal_oriental_civil_war: "Show Superiority"
+ war_goal_oriental_civil_war_desc: "Show Superiority"
+ war_goal_conquest_of_egypt: "Show Superiority"
+ war_goal_conquest_of_egypt_desc: "Show the crusaders the strength and willingness of our caliphate"
+ CONQUEST_OF_EGYPT: "Conquest of Egypt"
+ cb_conquest_of_egypt: "Conquest of Egypt"
