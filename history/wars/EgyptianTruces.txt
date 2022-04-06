@@ -1,0 +1,23 @@
+name = "The Egyptian Rebellion"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+
+1440.1.1 = {
+	add_attacker = EEG
+	add_defender = OUT
+	add_defender = FAD
+	add_defender = ANZ
+	add_defender = SYR
+	add_defender = TRP
+}
+
+1444.11.10 = {
+	rem_attacker = EEG
+	rem_defender = OUT
+	rem_defender = FAD
+	rem_defender = ANZ
+	rem_defender = SYR
+	rem_defender = TRP
+}
